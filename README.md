@@ -48,24 +48,19 @@ Fora do editor →  Corrida, natação e musculação
 
 ![Flask](https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=FFFFFF&labelColor=0D1117)
 ![JavaFX](https://img.shields.io/badge/JavaFX-0D1117?style=flat-square&logo=oracle&logoColor=F80000&labelColor=0D1117)
-![Jinja](https://img.shields.io/badge/Jinja-0D1117?style=flat-square&logo=jinja&logoColor=B41717&labelColor=0D1117)
 ![Liquid](https://img.shields.io/badge/Liquid-0D1117?style=flat-square&logo=shopify&logoColor=7AB55C&labelColor=0D1117)
 
 **Dados**
 
 ![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1&labelColor=0D1117)
 ![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=flat-square&logo=sqlite&logoColor=003B57&labelColor=0D1117)
-![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=flat-square&logo=pandas&logoColor=FFFFFF&labelColor=0D1117)
 
 **Ferramentas & Plataformas**
 
 ![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032&labelColor=0D1117)
 ![GitHub Actions](https://img.shields.io/badge/Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF&labelColor=0D1117)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624&labelColor=0D1117)
 ![Shopify](https://img.shields.io/badge/Shopify-0D1117?style=flat-square&logo=shopify&logoColor=7AB55C&labelColor=0D1117)
 ![Netlify](https://img.shields.io/badge/Netlify-0D1117?style=flat-square&logo=netlify&logoColor=00C7B7&labelColor=0D1117)
-![Figma](https://img.shields.io/badge/Figma-0D1117?style=flat-square&logo=figma&logoColor=F24E1E&labelColor=0D1117)
-
 <br/>
 
 ## `03` — Projetos
