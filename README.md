@@ -1,8 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=140&text=Guilherme%20Bernardino&fontColor=FFFFFF&fontSize=52&fontAlign=50&fontAlignY=50&desc=Software%20Engineering%20%C2%B7%20Curitiba%2C%20BR&descAlign=50&descAlignY=78&descSize=16" width="100%" />
+<!-- Header: versão clara/escura para não sumir no tema light do GitHub -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=transparent&height=140&text=Guilherme%20Bernardino&fontColor=FFFFFF&fontSize=52&fontAlign=50&fontAlignY=50&desc=Software%20Engineering%20%C2%B7%20Curitiba%2C%20BR&descAlign=50&descAlignY=78&descSize=16" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=transparent&height=140&text=Guilherme%20Bernardino&fontColor=24292F&fontSize=52&fontAlign=50&fontAlignY=50&desc=Software%20Engineering%20%C2%B7%20Curitiba%2C%20BR&descAlign=50&descAlignY=78&descSize=16" />
+  <img alt="Guilherme Bernardino — Software Engineering · Curitiba, BR" width="100%" src="https://capsule-render.vercel.app/api?type=transparent&height=140&text=Guilherme%20Bernardino&fontColor=24292F&fontSize=52&fontAlign=50&fontAlignY=50&desc=Software%20Engineering%20%C2%B7%20Curitiba%2C%20BR&descAlign=50&descAlignY=78&descSize=16" />
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=900&color=FFFFFF&center=true&vCenter=true&width=520&lines=Codigo+limpo%2C+marca+forte%2C+produto+no+ar.;Software+Engineering+%40+PUCPR;Technology+Intern+%40+Jozzi+Creative+Lab" alt="headline" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=900&color=FFFFFF&center=true&vCenter=true&width=520&lines=Codigo+limpo%2C+marca+forte%2C+produto+no+ar.;Software+Engineering+%40+PUCPR;Technology+Intern+%40+Jozzi+Creative+Lab" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=900&color=24292F&center=true&vCenter=true&width=520&lines=Codigo+limpo%2C+marca+forte%2C+produto+no+ar.;Software+Engineering+%40+PUCPR;Technology+Intern+%40+Jozzi+Creative+Lab" />
+  <img alt="Código limpo, marca forte, produto no ar." src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=900&color=24292F&center=true&vCenter=true&width=520&lines=Codigo+limpo%2C+marca+forte%2C+produto+no+ar.;Software+Engineering+%40+PUCPR;Technology+Intern+%40+Jozzi+Creative+Lab" />
+</picture>
 
 <br/><br/>
 
@@ -61,6 +70,7 @@ Fora do editor →  Corrida, natação e musculação
 ![GitHub Actions](https://img.shields.io/badge/Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF&labelColor=0D1117)
 ![Shopify](https://img.shields.io/badge/Shopify-0D1117?style=flat-square&logo=shopify&logoColor=7AB55C&labelColor=0D1117)
 ![Netlify](https://img.shields.io/badge/Netlify-0D1117?style=flat-square&logo=netlify&logoColor=00C7B7&labelColor=0D1117)
+
 <br/>
 
 ## `03` — Projetos
@@ -116,18 +126,15 @@ Outlet curado de moda secondhand com iniciativa social de doação para a comuni
 
 ## `04` — Estatísticas
 
+<!--
+  Imagens geradas pelo workflow .github/workflows/metrics.yml (lowlighter/metrics)
+  e commitadas neste repositório. Não dependem de nenhuma instância pública externa.
+-->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=guilhermebernardino20&show_icons=true&hide_border=true&theme=transparent&title_color=FFFFFF&icon_color=8B949E&text_color=8B949E&rank_icon=github&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilhermebernardino20&layout=compact&hide_border=true&theme=transparent&title_color=FFFFFF&text_color=8B949E&langs_count=8" />
+<img src="./metrics.stats.svg" alt="Estatísticas e linguagens do GitHub" width="100%" />
 
-<br/>
-
-<img height="165" src="https://streak-stats.demolab.com?user=guilhermebernardino20&hide_border=true&theme=transparent&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=8B949E&dates=8B949E&sideNums=8B949E&currStreakNum=FFFFFF&stroke=21262D" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=guilhermebernardino20&theme=github-compact&hide_border=true&bg_color=00000000&color=FFFFFF&line=8B949E&point=FFFFFF&area=true&area_color=21262D" width="98%" />
+<img src="./metrics.calendar.svg" alt="Calendário de contribuições e sequência" width="100%" />
 
 </div>
 
@@ -144,7 +151,5 @@ Outlet curado de moda secondhand com iniciativa social de doação para a comuni
 <br/>
 
 <sub>Aberto a conversas sobre backend, e-commerce e automação.</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=80&section=footer&text=&fontSize=0" width="100%" />
 
 </div>
