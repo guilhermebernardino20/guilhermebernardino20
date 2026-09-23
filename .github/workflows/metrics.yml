@@ -1,0 +1,47 @@
+# Gera os SVGs de estatísticas do perfil e os commita no próprio repositório.
+# Substitui github-readme-stats / streak-stats / activity-graph (instâncias públicas instáveis).
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # diariamente, 03:00 em Brasília
+  workflow_dispatch:       # permite rodar manualmente pela aba Actions
+  push:
+    branches: [main]
+    paths: [".github/workflows/metrics.yml"]
+
+permissions:
+  contents: write          # necessário para commitar os SVGs gerados
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # Card 1: resumo do perfil + linguagens mais usadas
+      - name: Stats + linguagens
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.stats.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: guilhermebernardino20
+          config_timezone: America/Sao_Paulo
+          base: header, activity, repositories
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+
+      # Card 2: calendário de contribuições (inclui sequência atual/máxima)
+      - name: Calendário
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: guilhermebernardino20
+          config_timezone: America/Sao_Paulo
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
