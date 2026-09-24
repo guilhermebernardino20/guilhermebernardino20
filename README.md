@@ -63,6 +63,7 @@ Fora do editor →  Corrida, natação e musculação
 
 ![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1&labelColor=0D1117)
 ![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=flat-square&logo=sqlite&logoColor=003B57&labelColor=0D1117)
+![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=flat-square&logo=supabase&logoColor=3FCF8E&labelColor=0D1117)
 
 **Ferramentas & Plataformas**
 
@@ -70,12 +71,23 @@ Fora do editor →  Corrida, natação e musculação
 ![GitHub Actions](https://img.shields.io/badge/Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF&labelColor=0D1117)
 ![Shopify](https://img.shields.io/badge/Shopify-0D1117?style=flat-square&logo=shopify&logoColor=7AB55C&labelColor=0D1117)
 ![Netlify](https://img.shields.io/badge/Netlify-0D1117?style=flat-square&logo=netlify&logoColor=00C7B7&labelColor=0D1117)
+![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=flat-square&logo=vercel&logoColor=FFFFFF&labelColor=0D1117)
 
 <br/>
 
 ## `03` — Projetos
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+### Jozzi Creative Marketing Lab
+Site institucional da Jozzi, agência boutique de marketing digital em Curitiba com atuação nos nichos jurídico, saúde e moda.
+
+`Site institucional` `Marketing digital`
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -94,8 +106,6 @@ Sistema web de gestão de estoque para microempreendedores de moda: cadastro de 
 
 `Python` `Flask` `MySQL` `JavaFX`
 
-[**→ Ver repositório**](#)
-
 </td>
 </tr>
 <tr>
@@ -106,8 +116,6 @@ Marca própria de outlet masculino premium construída do zero — identidade vi
 
 `Branding` `SVG` `Meta Ads`
 
-[**→ Ver projeto**](#)
-
 </td>
 <td width="50%" valign="top">
 
@@ -115,8 +123,6 @@ Marca própria de outlet masculino premium construída do zero — identidade vi
 Outlet curado de moda secondhand com iniciativa social de doação para a comunidade da Corbélia.
 
 `E-commerce` `Operações` `Social`
-
-[**→ Ver projeto**](#)
 
 </td>
 </tr>
@@ -132,9 +138,9 @@ Outlet curado de moda secondhand com iniciativa social de doação para a comuni
 -->
 <div align="center">
 
-<img src="./metrics.stats.svg" alt="Estatísticas e linguagens do GitHub" width="100%" />
+<img src="./metrics.stats.svg" alt="Estatísticas e linguagens do GitHub" />
 
-<img src="./metrics.calendar.svg" alt="Calendário de contribuições e sequência" width="100%" />
+<img src="./metrics.calendar.svg" alt="Calendário de contribuições e sequência" />
 
 </div>
 
